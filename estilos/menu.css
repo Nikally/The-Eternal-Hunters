@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+:root {
+    --cor1: #030207;
+    --cor2: #829FD9;
+    --cor3: #B457F2;
+    --cor4: #43CAD9;
+    --cor5: #485373;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+
+    background-color: var(--cor1);
+}
+
+header {
+    background-image: url(../imagens/wallpaper001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+
+    margin: auto;
+
+    height: 100vh;
+
+    color: white;
+
+    border-bottom: solid var(--cor1) 0.5PX;
+}
+
+
+header img {
+    width: 100%;
+    display: block;
+    height: 92%;
+}
+
+nav#superior {
+    height: 50px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #111111;
+    padding: 5px;
+
+    border-bottom: #829FD9 solid 0.5px;
+}
+
+nav#superior a {
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 1.6em;
+}
+
+div#logo {
+    align-self: center;
+}
+
+div#navegadores {
+    margin-left: 20px;
+    margin: auto;
+}
+
+div#navegadores a {
+    padding: 10px;
+    color: var(--cor2);
+}
+
+div#navegadores a:hover {
+    color: var(--cor4);
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 10px;
+    outline: var(--cor3) solid;
+}
+
+div#menu {
+    
+    position: absolute;
+    top: 35%;
+    left: 5%;
+
+    max-width: 700px;
+
+    font-size: 1.5em;
+    text-indent: 15px;
+
+    padding-right: 15px;
+}
+
+div#menu-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+
+    color: var(--cor3);
+}
+
+div#sub-title-menu{
+    margin-bottom: 20px ;
+    padding-left: 10px;
+
+    color: var(--cor2);
+}
+
+div#sub-title-menu p {
+    display: inline;
+}
+
+div.enfase {
+    display:inline-block;
+
+    border-bottom: var(--cor3) solid 2px;
+    text-indent: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+div#menu-content {
+    font-size: 0.8em;
+}
+
+main {
+    background-color: var(--cor5);
+    padding: 15px;
+}
+
+main h1 {
+    margin-bottom: 15px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 1.2em;
+}
+
+div#conteudo {
+    display: flex;
+    flex-wrap: row ;
+    flex-wrap: nowrap;
+
+    
+}
+
+div.main-title {
+    background-image:linear-gradient(to right, var(--cor1), var(--cor2), transparent) ;
+    color: var(--cor4);
+    padding: 5px;
+    margin-bottom: 15px;
+
+    border-radius: 0px 0px 5px 5px;
+
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.24);
+
+    margin: 0px -15px;
+
+    font-size: 1.4em;
+}
+
+main h1 {
+    margin: 0%;
+}
+
+span.main-enfase {
+    font-style:italic ;
+}
+
+div#main-primeira {
+    margin-top: -15px;
+}
+
+section {
+    background-color: white;
+
+    max-width: 650px;
+    margin: auto;
+    margin-top: -14px;
+
+    padding: 15px;
+
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.342);
+}
+
+aside {
+    background-color: var(--cor1);
+    height: 140px;
+    min-width: 100px;
+    max-width: ;
+}

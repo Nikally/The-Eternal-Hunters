@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #736520 ;
+    --cor2: #40330F ;
+    --cor3: #313A40 ;
+    --cor4: #010326 ;
+    --cor5: #0D0B06 ;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor4), var(--cor5) );
+}
+
+header {
+    background-color: var(--cor1) ;
+}
+
+nav {
+    background-color: var(--cor2);
+}
+
+main {
+    background-color: var(--cor3);
+    color: rgb(236, 236, 236);
+
+    max-width: 800px;
+    min-width: none;
+    margin: auto;
+
+    padding: 0px 10px ;
+}
+
+main h1 {
+    background-image: linear-gradient(to right, var(--cor5), var(--cor4)) ;
+
+    font-size: 2em;
+    text-indent: 5px;
+
+    padding: 10px 0px;
+    margin: 0px -10px;
+}
+
+section#lore h1 {
+    color: var(--cor1);
+}
+
+article.habilidade {
+    background-color: var(--cor5);
+}
