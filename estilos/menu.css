@@ -29,6 +29,7 @@ header {
     background-position: center top;
 
     margin: auto;
+    margin-bottom: 0%;
 
     height: 100vh;
 
@@ -127,13 +128,21 @@ div.enfase {
     padding-left: 5px;
 }
 
+div.divisor {
+    text-align: center;
+    color: var(--cor3);
+    font-size: 0.9em;
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
 div#menu-content {
     font-size: 0.8em;
 }
 
 main {
-    background-color: var(--cor5);
-    padding: 15px;
+    padding-top: 10px;
 }
 
 main h1 {
@@ -151,7 +160,8 @@ div#conteudo {
     flex-wrap: row ;
     flex-wrap: nowrap;
 
-    
+    max-width: 900px;
+    margin: auto;
 }
 
 div.main-title {
@@ -169,6 +179,10 @@ div.main-title {
     font-size: 1.4em;
 }
 
+div.ultima {
+    margin-top: -15px;
+}
+
 main h1 {
     margin: 0%;
 }
@@ -181,21 +195,155 @@ div#main-primeira {
     margin-top: -15px;
 }
 
+div.mid-content {
+    width: 50%;
+}
+
 section {
     background-color: white;
+    border: var(--cor3) ridge 2px;
 
-    max-width: 650px;
     margin: auto;
-    margin-top: -14px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 
     padding: 15px;
 
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.342);
 }
 
+section p {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
 aside {
+    background-color: #161618;
+    width: 25%;
+    border: var(--cor3) ridge 2px;
+}
+
+aside#navegação {
+    margin-right: 5px;
+    text-align: center;
+    color: var(--cor2);
+
+    display: flex;
+    flex-direction: column;
+}
+
+aside#navegação  a {
+    transition: 2s;
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+aside#navegação ul {
+    list-style: none;
+}
+
+aside#navegação li {
+   padding-bottom: 10px;
+}
+
+div.aside-title {
+    font-size: 1.6em;
+
+    border-bottom: var(--cor4) 1px solid;
+    padding-bottom: 5px ;
+    padding-top: 5px;
+
+}
+
+li.aside-content {
+    margin-bottom: 5px;
+}
+
+a.aside-content p{
+    text-align: center;
+    text-indent: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+} 
+
+div.imagem-navegadora {
+    border: var(--cor5) ridge;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+
+    background-image: url(../imagens/marca_dubia.png);
+    background-position: center;
+    background-position: 260%;
+
+    margin: auto;
+    margin-top: 10px;
+}
+
+section.mask-container {
+    position: relative;
+    margin: 15px;
+
+    background-image: url(../imagens/transition-wallpaper.png);
+    background-position: 100%;
+    background-size: cover;
+
+    height: 400px;
+
+    color: white;
+    text-align: center;
+}
+
+div.mask-title {
+    font-size: 2em;
+    padding-bottom: 10px;
+
+    padding-left: 15px;
+}
+
+div.mask-sub-title {
+    font-size: 1.5em;
+    padding-bottom: 25px;
+
+    padding-right: 30px;
+
+    color: var(--cor2);
+}
+
+div.mask-text {
+    display: block;
+    text-align: center;
+
+    margin: auto;
+
+    padding-bottom: 35px;
+
+    color: var(--cor4);
+
+    text-shadow: black 1px 1px 1px;
+}
+
+div.mask-text p {
+    text-align: center;
+}
+
+div.mask-buttom {
+    display: inline-block;
+
     background-color: var(--cor1);
-    height: 140px;
-    min-width: 100px;
-    max-width: ;
+    padding: 15px;
+
+    border: ridge var(--cor5);
+
+    font-size: 0.8em;
+
+    color: var(--cor3);
+}
+
+div.mask-buttom:hover {
+    transition: 0.2s;
+
+    padding: 16px;
+
+    color: var(--cor4);
 }
